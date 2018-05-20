@@ -113,11 +113,6 @@ export default class App extends React.Component {
                 .then(html => {
                     let tel = ($(html).find("[name=tel]").val()) ? $(html).find("[name=tel]").val() : "";
                     let email = ($(html).find("[name=email]").val()) ? $(html).find("[name=email]").val() : "";
-                    if (!tel && !email) {
-
-                    } else {
-
-                    }
                     results.push({
                         MST: mst.MST + "",
                         "Số điện thoại": tel,
