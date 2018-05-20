@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+.dialog-container {
+    width: 500px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    font-family: 'Fira Sans', sans-serif;
+    overflow: hidden;
+    transition: opacity 0.6s ease;
+}
+
+.dialog-container *, input {
+    font-size: 17px !important;
+    font-weight: bold !important;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.upload-section {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.get-data-button {
+    background-color: #37913e !important;
+    width: 160px;
+    color: white !important;
+}
+
+.upload-file-button {
+    background-color: #b78000 !important;
+    color: white !important;
+    width: 160px !important;
+}
+
+.download-file-button {
+    background-color: #375a91 !important;
+    width: 160px;
+    color: white !important;
+}
+
+.close-button {
+    background-color: #b53636 !important;
+    width: 160px;
+    color: white !important;
+}
+
+.get-data-section {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.download-section {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.result-section {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.hide-dialog {
+    z-index: -9999;
+    opacity: 0;
+}
+
+.jss2 {
+    color: white !important;
+}
+
+.footer {
+    color: gray !important;
+    margin-top: 10px;
+    font-weight: 500 !important;
+    font-size: 11px !important;
+    width: 100%;
+    text-align: center !important;
+}

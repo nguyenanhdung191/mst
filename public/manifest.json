@@ -1,0 +1,20 @@
+{
+    "name": "__MSG_appName__",
+    "version": "0.0.2",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://nopthue.gdt.gov.vn/epay_nnt/DKyBSung/DkyBsung.jsp"
+            ],
+            "js": [
+                "index.js",
+                "FileSaver.min.js",
+                "jquery-3.3.1.min.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "index.css"
+    ]
+}
